@@ -1,0 +1,5 @@
+package com.norgini.fullstackbackend.model;
+
+public class User {
+
+}

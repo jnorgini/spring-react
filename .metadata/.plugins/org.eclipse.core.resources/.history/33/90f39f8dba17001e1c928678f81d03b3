@@ -1,0 +1,5 @@
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:postgresql://dpg-cifp3o5ph6erq6gogglg-a:5432/fullstack_xz0i
+spring.datasource.username=fullstack_xz0i_user
+spring.datasource.password=cZI0ZZHcxR9tcAiHCdeVbNV8SlpR3qWi
+spring.datasource.driver-class-name=org.postgresql.Driver

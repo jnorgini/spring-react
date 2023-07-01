@@ -1,0 +1,5 @@
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jdbc:mysql://aws.connect.psdb.cloud:3306/fullstack
+spring.datasource.username=1be0pz1m7aitbkbz38mx
+spring.datasource.password=pscale_pw_DQIf1WH6cRspkQjU3lwdyGJijgyMY8IOtqJB8KNDSd0
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver

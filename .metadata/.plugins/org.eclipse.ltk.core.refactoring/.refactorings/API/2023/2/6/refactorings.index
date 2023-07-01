@@ -1,0 +1,14 @@
+1675557391390	Move compilation unit
+1675570486404	Copy compilation unit
+1675570856049	Rename type 'SourceExceptionHandler'
+1675573265584	Extract constant 'ID'
+1675576995898	Extract constant 'ID'
+1675577016830	Extract constant 'ID'
+1675577065075	Extract constant 'NAME'
+1675577086985	Extract constant 'EMAIL'
+1675577101449	Extract constant 'PASSWORD'
+1675619105056	Extract constant 'OBJETO_NAO_ENCONTRADO'
+1675619649356	Extract constant 'INDEX'
+1675624050373	Extract constant 'E_MAIL_JA_CADASTRADO_NO_SISTEMA'
+1675631047751	Delete element
+1675637181293	Extract constant 'OBJETO_NAO_ENCONTRADO'
