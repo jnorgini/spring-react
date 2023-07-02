@@ -1,0 +1,5 @@
+package com.norgini.fullstackbackend.service;
+
+public class UserServiceImpl {
+
+}

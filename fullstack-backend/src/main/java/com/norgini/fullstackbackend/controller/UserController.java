@@ -10,23 +10,23 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.norgini.fullstackbackend.model.User;
-import com.norgini.fullstackbackend.repository.UserRepository;
+import com.norgini.fullstackbackend.service.UserService;
 
 @RestController
 @CrossOrigin(origins = "*")
 public class UserController {
 	
 	@Autowired
-	private UserRepository userRepository;
+	private UserService service;
 	
 	@PostMapping("/user")
 	User newUser(@RequestBody User newUser) {
-		return userRepository.save(newUser);
+		return service.saveUser(newUser);
 	}
 	
 	@GetMapping("/users")
-	List<User> getAllUsers() {
-		return userRepository.findAll();
+	List<User> findAll() {
+		return service.findAll();
 	}
 
 }
